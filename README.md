@@ -18,7 +18,7 @@
 
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
+To begin using this template, choose one of the following options to get stared:
 * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
 * Install via npm: `npm i startbootstrap-grayscale`
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`

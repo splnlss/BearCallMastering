@@ -1,11 +1,18 @@
-sudo:          false
-language:      node_js
+sudo: false
+language: node_js
 node_js:
-  - "node"
-install:       npm install
+- node
+install: npm install
 script:
-  - npm test
-  - gulp
+- npm test
+- gulp
 cache:
   directories:
-    - node_modules
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: QFTVB5vo6/ek7LeJgQADHpG//iY61fRBDT91TUpH1SgtbHm9iHxWUgXkpjLEFAp+UcyMIJRsQojxYvLp6ztUTLvr9gceo7W5T+Ef/Pz9Vt7hHvS8uZBmMe0WCV8+d1qwGAJL02tci6vXi20hmX+P4jcu47O2jlFWLotyG0r5yRmvsCMuPLHuufKkAb7zoH9+qXRuCb/5rFBZPxEyjG6wRGK/f/ONiCgao0gTrfZ2jDSzjTzCUqgQuWkmLExt494CIrKKMhhiF8y5XnuGRf+Zvu2Nh4zS/NE56o0JwFv/gebF8L0a6e4mX0Om4ANUtyzvlDXb4eBQHtHrX0V0I7czOVjMS1r0edRC9QAOl0LYdH0zGwKRD29jDw1pnctporCcShLiKONprhsQqjLGs2STDLHe4ZsOURU1+GPTdQ2YvQQLYcXpFZ/egLAiu9B+ZmmIoUfFfZwXWaOrzfJgbywX4O9bWgZAJLr2HzWdSFiAPbpChla2FWSzc4rF0GfyFakPLspfegEo/rDkx7sAtUMJ/cZ1lLXbFy/ebsPDF9BKof+HeYgheSCFGHC0DWQAdlmh33lvDuQa6IiA8vGRLWtQkuLDe0B9BXVjrpbA/SemLwfseFe1q+r7ZaR4+wkTkEtugrYpXbtowDF+DLzdqRCFCmLt1MsThYriGs4Q4Q9/36s=
+  app: BearCallMastering
+  on:
+    repo: splnlss/BearCallMastering

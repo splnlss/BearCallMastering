@@ -56,6 +56,18 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+/*  splnlss entered */
+
+.white-links a{
+  color: #FFFFFF;
+}
+
+.white-links a:hover {
+  color: #C8C8C8;
+  text-decoration:none;
+}
+/*  splnlss end */
+
 
 .bg-primary {
   background-color: #F05F40 !important;

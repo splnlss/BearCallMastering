@@ -22,6 +22,10 @@ ul{
   list-style: none;
 }
 
+/* splnlss edit START*/
+#about{
+  padding-top: 100px;
+}
 #rates{
   text-align: left;
   display:flex;
@@ -36,6 +40,7 @@ ul .rates{
   flex-direction: column;
   color:white;
 }
+/* splnlss edit END */
 
 a {
   color: #F05F40;
@@ -65,6 +70,18 @@ h6 {
 .white-links a:hover {
   color: #C8C8C8;
   text-decoration:none;
+}
+
+.clientsList{
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.clientSpacing{
+    text-align: left
+    color:white;
+  }
 }
 /*  splnlss end */
 

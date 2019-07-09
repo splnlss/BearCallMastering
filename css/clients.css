@@ -1,0 +1,49 @@
+// Styling for the clients masthead
+
+header.clients-masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/BearCallHeader.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.clients-masthead hr {
+  margin-top: 30px;
+  margin-bottom: -70px;
+}
+
+header.clients-masthead h1 {
+  font-size: 2rem;
+}
+
+header.clients-masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.clients-masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.clients-masthead {
+    height: 50vh;
+    min-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.clients-masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.clients-masthead h1 {
+    font-size: 4rem;
+  }
+}
